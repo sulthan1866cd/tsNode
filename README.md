@@ -25,9 +25,14 @@ npm i yarn -g
 yarn
 #start app
 yarn dev
+#build app
+yarn build # it created .js files in directory ./dist
+#start built app
+yarn start
 ```
 
 # API end points
+api listens to port number 3000(can configure it in app.ts file)
 ### GET
 - `/users` to get all users
 - `/users/userId` to get one user by userId
