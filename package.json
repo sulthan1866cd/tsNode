@@ -7,8 +7,7 @@
   "author": "sulthan1866cd",
   "type": "module",
   "scripts": {
-    "dev": "nodemon app.ts",
-    "start": "node app.ts"
+    "dev": "tsx app.js"
   },
   "dependencies": {
     "express": "^5.1.0"
