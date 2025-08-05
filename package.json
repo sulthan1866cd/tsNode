@@ -1,5 +1,5 @@
 {
-  "name": "TSNodeUsers",
+  "name": "ts-node-users",
   "version": "1.0.0",
   "main": "app.ts",
   "license": "MIT",
@@ -7,7 +7,7 @@
   "author": "sulthan1866cd",
   "type": "module",
   "scripts": {
-    "dev": "tsx app.js"
+    "dev": "tsx app.ts"
   },
   "dependencies": {
     "express": "^5.1.0"
