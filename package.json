@@ -1,20 +1,22 @@
 {
-  "name": "TSNodeUsers",
+  "name": "ts-node-users",
   "version": "1.0.0",
   "main": "app.ts",
   "license": "MIT",
   "description": "simple api with ts",
   "author": "sulthan1866cd",
-  "type": "module",
   "scripts": {
     "dev": "nodemon app.ts",
-    "start": "node app.ts"
+    "build": "tsc -p .",
+    "start": "node ./dist/app.js"
   },
   "dependencies": {
     "express": "^5.1.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.3",
-    "tsx": "^4.20.3"
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
   }
 }
