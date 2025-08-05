@@ -37,9 +37,9 @@ yarn dev
 expects json of type 
 ```json
 {
-  userId: string;
-  name: string;
-  password: string;
-  email: string;
+  "userId": "your user id",
+  "name": "full name",
+  "password": "strong password",
+  "email": "your@mail.id",
 }
 ```
