@@ -1,8 +1,8 @@
 # TS - Node task
 
 # Table of contents 
-[set up](#set-up)
-[api end points](#api-end-points)
+- [set up](#set-up)
+- [api end points](#api-end-points)
 
 # Set up
 ## Installation
